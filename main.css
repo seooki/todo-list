@@ -1,0 +1,55 @@
+.addList {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text--input {
+  padding: 10px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.submit--input {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  border: none;
+  box-sizing: border-box;
+  max-width: 40px;
+  max-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+
+.todoBoard {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.todoBoard ul {
+  margin: 0;
+  padding: 0;
+}
+
+.todoBoard ul li {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: aliceblue;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.todoBoard ul li button {
+  float: right;
+  border: none;
+  background-color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
